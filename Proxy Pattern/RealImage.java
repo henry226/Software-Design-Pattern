@@ -9,11 +9,11 @@ public class RealImage implements Image{
 	
 	@Override 
 	public void display() {
-		System.out.println("Display " + fileName);
+		System.out.println("(Display) " + fileName);
 	}
 	
 	private void loadCache(String fileName) {
-		System.out.println("Loading " + fileName);
+		System.out.println("(Loading...) " + fileName );
 	}
 
 }
